@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Decodificador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img src="img\logo.png" class="logo">
+        </header>
+        <main>
+            <form>
+                <textarea id="mensagem" placeholder="Digite seu texto"></textarea>
+                <div class="botões">
+                    <img src="img\info.svg" class="info">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                    <button type="button" class="botão_criptografa" onclick="codifica()">Criptografar</button>
+                    <button type="button" class="botão_descriptografa" onclick="decodifica()">Descriptografar</button>
+                </div>                
+            </form>
+            <div class="bloco_criptografado">
+                <img src="img\sem_mensagem.svg" class="imagem_busca">
+                <div>
+                    <h1>Nenhuma mensagem encontrada</h1>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+            </div>
+            <div class="bloco_criptografado_texto">
+                <textarea class="texto_codificado" readonly></textarea>
+                <button type="button" class="botão_copia" onclick="copia()">Copiar</button>
+            </div>
+        </main>
+        <footer>
+            <p>Desenvolvido por Daniel Fernandes da Silva</p>
+        </footer>
+    </body>
+</html>
+
+<script src="script.js"></script>

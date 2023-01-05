@@ -1,0 +1,173 @@
+body {
+    background: #f3f5f6;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo {
+    position: absolute;
+    display: inline;
+    top: 40px;
+    left: 5%;
+}
+
+main {
+    height: 900px;
+    padding: 3em 0;
+    margin: 0 auto;
+}
+
+main form {
+    display: inline-block;
+    width: calc(92% - 480px);
+    height: 820px;
+    margin: 40px;
+}
+
+form textarea {
+    display: inline-block;
+    width: 680px;
+    height: 600px;
+    margin: 2em 0 0 3em;
+    font-size: 32px;
+    color: #0a3871;
+    line-height: 150%;
+    resize: none;
+    border: none;
+    background: border-box;
+    outline: none;
+}
+
+textarea::placeholder {
+    color: #0a3871;
+}
+
+.botões {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.info {
+    float: left;
+    margin-right: 6px;
+    width: 16px;
+    height: 16px;
+}
+
+form div p {
+    font-size: 12px;
+    line-height: 150%;
+    margin-bottom: 16px;
+    color: #495057;
+    opacity: 0.8;
+}
+
+.botão_criptografa {
+    display: inline-block;
+    height: 70px;
+    width: 45%;
+    margin: 0 12px;
+    background: #0A3871;
+    border-radius: 24px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.botão_descriptografa {
+    display: inline-block;
+    height: 70px;
+    width: 45%;
+    margin: 0 12px;
+    box-sizing: border-box;
+    background: #d8dfe8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+}
+
+.bloco_criptografado {
+    vertical-align: bottom;
+    display: inline-block;
+    padding: 0 38px;
+    box-sizing: border-box;
+    margin: 40px;
+    width: 400px;
+    height: 820px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgb(0 0 0 / 8%);
+    border-radius: 32px;
+}
+
+.imagem_busca{
+    width: 336px;
+    height: 304px;
+    margin-top: 150px;
+}
+
+.bloco_criptografado div h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    margin: 1em 0;
+}
+
+.bloco_criptografado div p{
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+}
+
+.bloco_criptografado_texto {
+    vertical-align: bottom;
+    display: none;
+    padding: 0 38px;
+    box-sizing: border-box;
+    margin: 40px;
+    width: 400px;
+    height: 820px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgb(0 0 0 / 8%);
+    border-radius: 32px;
+}
+
+.bloco_criptografado_texto textarea{
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+    margin-top: 32px;
+    resize: none;
+    border: none;
+    background: border-box;
+    outline: none;
+    width: 320px;
+    height: 650px;
+}
+
+.botão_copia {
+    display: inline-block;
+    height: 70px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 24px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    margin-top: 16px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background: #0a3871;
+    color: #E5E5E5;
+}
